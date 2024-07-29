@@ -1,0 +1,7 @@
+npm init -y
+npm install -D typescript
+npm install -D ts-node
+npm install -D nodemon
+yarn add express body-parser cookie-parser compression cors
+yarn add -D @types/express @types/body-parser @types/cookie-parser @types/compression @types/cors
+yarn add mongoose @types/mongoose
