@@ -23,7 +23,7 @@ server.listen(3000, () => {
     console.log("Server is running on http://localhost:3000/");
 })
 
-const MONGO_URL = "mongodb+srv://nuannimprasert:Z1b2nlEChKeeXpPm@cluster0.8wn3kjd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const MONGO_URL = "mongodb://localhost:27017/test"
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
